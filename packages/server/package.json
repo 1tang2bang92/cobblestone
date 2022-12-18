@@ -2,7 +2,7 @@
   "name": "server",
   "version": "0.0.1",
   "author": "1tang2bang92<shpark0906@naver.com>, 구잘<dksgusals99@gmail.com>",
-  "license": "Apache License",
+  "license": "Apache-2.0",
   "scripts": {
     "prebuild": "rimraf dist",
     "build": "nest build",
