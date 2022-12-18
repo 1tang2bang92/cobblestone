@@ -12,7 +12,7 @@
   },
   "scripts": {
     "dev": "concurrently \"yarn workspace client dev\" \"yarn workspace server start:dev\"",
-    "dev:client": "yarn workspace client dev",
+    "dev:client": "yarn workspace client vite dev --host 0.0.0.0",
     "dev:server": "yarn workspace server start:dev",
     "test": "",
     "test:clinet": "",
